@@ -1,0 +1,14 @@
+# Frontend
+vaccination-tracker-frontend/node_modules/
+vaccination-tracker-frontend/build/
+vaccination-tracker-frontend/.env*
+
+# Backend
+vaccinationdrive/target/
+vaccinationdrive/build/
+vaccinationdrive/.idea/
+vaccinationdrive/*.log
+vaccinationdrive/.env*
+
+# Misc
+.DS_Store

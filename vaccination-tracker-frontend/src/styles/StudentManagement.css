@@ -1,0 +1,148 @@
+.student-management {
+    padding: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.search-filter {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-filter input, 
+.search-filter select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+
+.add-button, .upload-button, .save-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.student-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    margin-top: 20px;
+}
+
+.students-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.students-list th, 
+.students-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.students-list th {
+    background-color: #f2f2f2;
+}
+
+.action-button {
+    background-color: #2196F3;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.status.pending {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.status.partially {
+    color: #2196F3;
+    font-weight: bold;
+}
+
+.status.fully {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-button, .upload-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.upload-button {
+    background-color: #2196F3;
+    color: white;
+    display: inline-block; /* Make label behave like a button */
+    text-align: center;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.bulk-upload {
+    display: inline-block; /* Align with the button */
+}
