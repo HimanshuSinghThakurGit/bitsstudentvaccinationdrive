@@ -298,24 +298,7 @@ function StudentManagement() {
                                     <option value="true">Vaccinated</option>
                                 </select>
                             </div>
-                            {/* <div className="form-group">
-                                <label>Vaccine Type (Optional):</label>
-                                <input
-                                    type="text"
-                                    name="vaccineType"
-                                    value={formData.vaccineType}
-                                    onChange={handleInputChange}
-                                />
-                            </div> */}
-                            {/* <div className="form-group">
-                                <label>Last Vaccinated Date (Optional, YYYY-MM-DD):</label>
-                                <input
-                                    type="date"
-                                    name="lastVaccinatedDate"
-                                    value={formData.lastVaccinatedDate}
-                                    onChange={handleInputChange}
-                                />
-                            </div> */}
+                         
                             <div className="form-buttons">
                                 <button type="submit" className="save-button">
                                     {isEditing ? 'Update Student' : 'Save Student'}
@@ -355,20 +338,13 @@ function StudentManagement() {
                                         <td>{student.studentId}</td>
                                         <td>{student.name}</td>
                                         <td>{student.classGrade}</td>
-                                        {/* <td className={`status ${student.vaccinationStatus}`}>
-                                                {student.vaccinationStatus}
-                                            </td> */}
+                                    
                                         <td className={`status ${student.vaccinationStatus === 'true' ? 'vaccinated' : 'not-vaccinated'}`}
                                             style={{ color: student.vaccinationStatus === 'true' ? 'green' : 'red' }}>
                                             {student.vaccinationStatus === 'true' ? 'Vaccinated' : 'Not Vaccinated'}
                                         </td>
                                         <td>
-                                            {/* <button
-                                                className="action-button"
-                                                onClick={() => handleView(student)}
-                                            >
-                                                View
-                                            </button> */}
+                                            
                                             <button
                                                 className="action-button"
                                                 onClick={() => handleEdit(student)}
